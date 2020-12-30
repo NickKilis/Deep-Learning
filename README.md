@@ -3,10 +3,10 @@
 1 .Convolutional Neural Network (CNN) 
   - Classification of images containing spectrograms from audio files
   - 10 classes total:
-   - 1 anechoic class
-   - 3 classes with different levels of noise
-   - 3 classes with different levels of reverb
-   - 3 classes with different levels of noise and reverb
+    - 1 anechoic class
+    - 3 classes with different levels of noise
+    - 3 classes with different levels of reverb
+    - 3 classes with different levels of noise and reverb
   - Data augmentation via delta-Mel spectrograms
   - Transfer learning from the pretrained ResNet50 model
   - Replacement of ResNet50's last layer with a sequence of layers and train only them
