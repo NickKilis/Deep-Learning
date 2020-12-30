@@ -1,17 +1,17 @@
 # Deep Learning Projects - [Python v3.7.6, PyTorch v1.5, CUDA v10.1]:
 
-1.Convolutional Neural Network (CNN) 
-  -Classification of images containing spectrograms from audio files
-  -10 classes total:
-    1 anechoic class
-    3 classes with different levels of noise
-    3 classes with different levels of reverb
-    3 classes with different levels of noise and reverb
-  -Data augmentation via delta-Mel spectrograms
-  -Transfer learning from the pretrained ResNet50 model
-  -Replacement of ResNet50's last layer with a sequence of layers and train only them
-  -Systematic search of hyperparameters:
-    -Tuning
+1.Convolutional Neural Network (CNN) \
+  -Classification of images containing spectrograms from audio files\
+  -10 classes total:\
+    1 anechoic class\
+    3 classes with different levels of noise\
+    3 classes with different levels of reverb\
+    3 classes with different levels of noise and reverb\
+  -Data augmentation via delta-Mel spectrograms\
+  -Transfer learning from the pretrained ResNet50 model\
+  -Replacement of ResNet50's last layer with a sequence of layers and train only them\
+  -Systematic search of hyperparameters:\
+    -Tuning\
     -Fine tuning
 
 2.Recurrent Neural Network (LSTM)
