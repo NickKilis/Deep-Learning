@@ -1,6 +1,6 @@
-# Deep Learning Projects - [Python v3.7.6, PyTorch v1.5, CUDA v10.1]:
+## Deep Learning Projects - [Python v3.7.6, PyTorch v1.5, CUDA v10.1]: ##
 
-1 .Convolutional Neural Network (CNN) 
+# 1 .Convolutional Neural Network (CNN) 
   - Classification of images containing spectrograms from audio files
   - 10 classes total:
     - 1 anechoic class
@@ -14,7 +14,7 @@
     - Tuning
     - Fine tuning
 
-2. Recurrent Neural Network (LSTM)
+# 2. Recurrent Neural Network (LSTM)
   - Binary Classification of 1-dimensional sequences extracted from the history values of four cryptocurrency coins
     - Class "0" : falling price expected
     - Class "1" : rising  price expected 
@@ -26,7 +26,7 @@
     - Tuning
     - Fine tuning
 
-3. Deep Reinforcement Learning (DRL)
+# 3. Deep Reinforcement Learning (DRL)
   - Mountain Car problem of OpenAI Gym library
     - Agent with three available actions
     - Train an agent via rewards, on how he can gain momentum using a sequence of actions, in order to surpass a steep mountain
